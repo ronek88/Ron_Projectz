@@ -16,5 +16,5 @@ SAVE FILE EXAMPLE
 
     CLICK ELEMENT           xpath=//*[@id="main-col"]/div/div/div[6]/p[2]/a[1]
 
-    SLEEP  30s
+    SLEEP  15s
     CLOSE BROWSER
