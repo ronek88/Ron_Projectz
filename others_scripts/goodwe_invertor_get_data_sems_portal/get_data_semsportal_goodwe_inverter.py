@@ -76,6 +76,7 @@ inverter = get_single_inverter_data()
 #print(f"Available fields in data: {inverter.data.keys()}")
 #method 1 how to get data via specification of particular dictionary keys
 print('Capacity is: ', end="")
+#TODO: edit here according to your needs
 print(json.dumps(inverter.data.get('inverter').get('capacity'), indent=2))
 
 #method 2, via calling the pre-coded methods of pygoodwe lib
